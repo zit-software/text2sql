@@ -1,0 +1,77 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{b-mc2/sql-create-context}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=9564cd103493d4240890927357876f7b}{%
+           family={b-mc2},
+           familyi={b\bibinithyphendelim m\bibinitperiod}}}%
+      }
+      \strng{namehash}{9564cd103493d4240890927357876f7b}
+      \strng{fullhash}{9564cd103493d4240890927357876f7b}
+      \strng{bibnamehash}{9564cd103493d4240890927357876f7b}
+      \strng{authorbibnamehash}{9564cd103493d4240890927357876f7b}
+      \strng{authornamehash}{9564cd103493d4240890927357876f7b}
+      \strng{authorfullhash}{9564cd103493d4240890927357876f7b}
+      \field{sortinit}{b}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{HuggingFace}
+      \field{title}{sql-create-context}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://huggingface.co/datasets/b-mc2/sql-create-context
+      \endverb
+      \verb{url}
+      \verb https://huggingface.co/datasets/b-mc2/sql-create-context
+      \endverb
+    \endentry
+    \entry{Clinton/Text-to-sql-v1}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=1bfa00754d3cd31f5a9f992d21db7ff8}{%
+           family={Clinton},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{1bfa00754d3cd31f5a9f992d21db7ff8}
+      \strng{fullhash}{1bfa00754d3cd31f5a9f992d21db7ff8}
+      \strng{bibnamehash}{1bfa00754d3cd31f5a9f992d21db7ff8}
+      \strng{authorbibnamehash}{1bfa00754d3cd31f5a9f992d21db7ff8}
+      \strng{authornamehash}{1bfa00754d3cd31f5a9f992d21db7ff8}
+      \strng{authorfullhash}{1bfa00754d3cd31f5a9f992d21db7ff8}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{HuggingFace}
+      \field{title}{Text-to-sql-v1}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://huggingface.co/datasets/Clinton/Text-to-sql-v1
+      \endverb
+      \verb{url}
+      \verb https://huggingface.co/datasets/Clinton/Text-to-sql-v1
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
