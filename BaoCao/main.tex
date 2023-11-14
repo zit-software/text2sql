@@ -501,9 +501,39 @@ Trong ký hiệu toán học:
 \]
 \subsubsection{Gradient Descent - AdamW} 
 
+Trong các bài toán tối ưu hàm lỗi, chúng ta thường tìm giá trị nhỏ nhất của 1 hàm số nào đó, 
+mà hàm số đạt giá trị nhỏ nhất khi đạo hàm bằng 0. 
+Nhưng đối với các hàm số nhiều biến thì đạo hàm rất phức tạp, 
+thậm chí là bất khả thi. 
+Nên thay vào đó người ta tìm điểm gần với điểm cực tiểu nhất và xem đó là nghiệm bài toán.
+Đây chính là ý tưởng của phương pháp \textbf{Gradient Descent}.
 
+\begin{minipage}{\linewidth}
+    \captionsetup{type=figure}
+    \centering
+    \includegraphics[width=12cm]{./gradient_descent.png}
+    \caption{Minh hoạt thuật toán gradient descent. Nguồn ảnh: \textbf{MLmuse}}
+\end{minipage}
 
-\subsubsection{Hàm lỗi CrossEntropyLoss} 
+Phương pháp gradient descent được sử dụng để tối ưu hóa hàm lỗi \( L \) trong mô hình máy học. 
+Công thức cập nhật trọng số trong mỗi bước gradient descent có thể được biểu diễn như sau:
+
+\[
+w_i = w_i - \alpha \frac{\partial L}{\partial w_i}
+\]
+
+Để đi về phía có giá trị cực tiểu, ta cần cập nhật trọng số theo hướng ngược lại với đạo hàm của hàm lỗi. 
+Do vậy, có được công thức trên với \(\alpha\) là learning rate.
+
+\subsubsection{Hàm lỗi CrossEntropyLoss}
+
+Trong huấn luyện mô hình phân loại, hàm lỗi Cross Entropy Loss được sử dụng để đánh giá độ chính xác của mô hình.
+Có vai trò quan trọng trong việc đánh giá mô hình cho bài toán phân loại nhiều lớp.
+
+Hàm Cross Entropy Loss cho bài toán phân loại nhiều lớp:
+\[
+L(\mathbf{y}, \mathbf{\hat{y}}) = -\sum_{i=1}^{N} y_i \log(\hat{y}_i)
+\]
 
 \subsubsection{Fine-tune}
 Do thiếu tài nguyên tính toán, nên việc huấn luyện cho mô hình chỉ được giữ ở mức tối thiểu. Các tham
@@ -525,20 +555,38 @@ Hai biểu đồ thể hiện giá trị lỗi trên tập train và tập test 
 \begin{minipage}{\linewidth}
     \captionsetup{type=figure}
     \centering
-    \includegraphics[width=10cm]{./bar_plot.png}
+    \includegraphics[width=8cm]{./bar_plot.png}
     \caption{Biểu đồ giá trị lỗi (cột) trên tập train và tập test.}
 \end{minipage}
 
 \begin{minipage}{\linewidth}
     \captionsetup{type=figure}
     \centering
-    \includegraphics[width=10cm]{./plot.png}
+    \includegraphics[width=8cm]{./plot.png}
     \caption{Biểu đồ giá trị lỗi (đường) trên tập train và tập test.}
 \end{minipage}
+
+Trong quá trình train, những padding token sẽ được đánh dấu là 100 (ở bước tiền xử lý).
+Với giá trị này, hàm CrossEntropyLoss sẽ không tính toán đạo hàm của các token padding, 
+giữ cho mô hình không học được thông tin từ các token padding.
 
 \subsection{Đánh giá mô hình}
 
 \section{Triển khai mô hình}
+Mô hình được demo trên nền tảng web, hỗ trợ sinh câu lệnh từ một chuỗi context và một chuỗi input
+
+Công nghệ sử dụng:
+\begin{itemize}
+    \item \textbf{Frontend}: ReactJS
+    \item \textbf{Backend}: FastAPI + Python
+\end{itemize}
+
+\begin{minipage}{\linewidth}
+    \captionsetup{type=figure}
+    \centering
+    \includegraphics[width=12cm]{./demo.png}
+    \caption{Demo mô hình trên web.}
+\end{minipage}
 
 \newpage
 \printbibliography

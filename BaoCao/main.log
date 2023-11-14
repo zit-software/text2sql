@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.11.11)  14 NOV 2023 17:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.11.11)  14 NOV 2023 20:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1248,7 +1248,7 @@ LaTeX Font Info:    Font shape `U/FdSymbolF/m/n' will be
 (Font)              scaled to size 8.0pt on input line 105.
 LaTeX Font Info:    Font shape `U/FdSymbolF/m/n' will be
 (Font)              scaled to size 6.0pt on input line 105.
-<./llm.jpg, id=236, 901.3675pt x 533.995pt>
+<./llm.jpg, id=240, 901.3675pt x 533.995pt>
 File: ./llm.jpg Graphic file (type jpg)
 <use ./llm.jpg>
 Package pdftex.def Info: ./llm.jpg  used on input line 119.
@@ -1259,7 +1259,7 @@ Overfull \hbox (15.0pt too wide) in paragraph at lines 116--122
  []
 
 [3 <./llm.jpg>]
-<./finetune.png, id=243, 963.6pt x 542.025pt>
+<./finetune.png, id=247, 963.6pt x 542.025pt>
 File: ./finetune.png Graphic file (type png)
 <use ./finetune.png>
 Package pdftex.def Info: ./finetune.png  used on input line 159.
@@ -1270,7 +1270,7 @@ Overfull \hbox (15.0pt too wide) in paragraph at lines 156--162
  []
 
 [4 <./finetune.png (PNG copy)>]
-<./transformer.png, id=252, 2470.22874pt x 1314.9125pt>
+<./transformer.png, id=256, 2470.22874pt x 1314.9125pt>
 File: ./transformer.png Graphic file (type png)
 <use ./transformer.png>
 Package pdftex.def Info: ./transformer.png  used on input line 223.
@@ -1281,7 +1281,7 @@ Overfull \hbox (15.0pt too wide) in paragraph at lines 220--226
  []
 
 [5]
-<./The_transformer_encoder_decoder_stack.png, id=259, 1222.5675pt x 795.97375pt>
+<./The_transformer_encoder_decoder_stack.png, id=263, 1222.5675pt x 795.97375pt>
 File: ./The_transformer_encoder_decoder_stack.png Graphic file (type png)
 <use ./The_transformer_encoder_decoder_stack.png>
 Package pdftex.def Info: ./The_transformer_encoder_decoder_stack.png  used on input line 248.
@@ -1292,7 +1292,7 @@ Overfull \hbox (15.0pt too wide) in paragraph at lines 245--251
  []
 
 [6 <./transformer.png> <./The_transformer_encoder_decoder_stack.png>]
-<./transformer_input.png, id=267, 1047.915pt x 291.0875pt>
+<./transformer_input.png, id=271, 1047.915pt x 291.0875pt>
 File: ./transformer_input.png Graphic file (type png)
 <use ./transformer_input.png>
 Package pdftex.def Info: ./transformer_input.png  used on input line 268.
@@ -1302,7 +1302,7 @@ Overfull \hbox (15.0pt too wide) in paragraph at lines 265--271
 []$[]$ 
  []
 
-<./ScaledDotProductAttention.png, id=268, 165.61874pt x 319.1925pt>
+<./ScaledDotProductAttention.png, id=272, 165.61874pt x 319.1925pt>
 File: ./ScaledDotProductAttention.png Graphic file (type png)
 <use ./ScaledDotProductAttention.png>
 Package pdftex.def Info: ./ScaledDotProductAttention.png  used on input line 285.
@@ -1313,7 +1313,7 @@ Overfull \hbox (15.0pt too wide) in paragraph at lines 282--288
  []
 
 [7 <./transformer_input.png> <./ScaledDotProductAttention.png>]
-<./MultiHead.png, id=274, 451.6875pt x 319.1925pt>
+<./MultiHead.png, id=278, 451.6875pt x 319.1925pt>
 File: ./MultiHead.png Graphic file (type png)
 <use ./MultiHead.png>
 Package pdftex.def Info: ./MultiHead.png  used on input line 314.
@@ -1323,7 +1323,7 @@ Overfull \hbox (15.0pt too wide) in paragraph at lines 311--317
 []$[]$ 
  []
 
-<./Add+Norm.png, id=275, 429.605pt x 342.27875pt>
+<./Add+Norm.png, id=279, 429.605pt x 342.27875pt>
 File: ./Add+Norm.png Graphic file (type png)
 <use ./Add+Norm.png>
 Package pdftex.def Info: ./Add+Norm.png  used on input line 327.
@@ -1334,7 +1334,7 @@ Overfull \hbox (15.0pt too wide) in paragraph at lines 324--330
  []
 
 [8 <./MultiHead.png> <./Add+Norm.png>]
-<./feed-forward-sublayer-in-transformer.png, id=281, 293.59688pt x 191.21437pt>
+<./feed-forward-sublayer-in-transformer.png, id=285, 293.59688pt x 191.21437pt>
 File: ./feed-forward-sublayer-in-transformer.png Graphic file (type png)
 <use ./feed-forward-sublayer-in-transformer.png>
 Package pdftex.def Info: ./feed-forward-sublayer-in-transformer.png  used on input line 346.
@@ -1344,7 +1344,7 @@ Overfull \hbox (15.0pt too wide) in paragraph at lines 343--349
 []$[]$ 
  []
 
-<./t5.jpg, id=282, 5012.7275pt x 1715.40875pt>
+<./t5.jpg, id=286, 5012.7275pt x 1715.40875pt>
 File: ./t5.jpg Graphic file (type jpg)
 <use ./t5.jpg>
 Package pdftex.def Info: ./t5.jpg  used on input line 360.
@@ -1355,12 +1355,12 @@ Overfull \hbox (15.0pt too wide) in paragraph at lines 357--363
  []
 
 [9 <./feed-forward-sublayer-in-transformer.png (PNG copy)> <./t5.jpg (PNG copy)>]
-<./t5_train.png, id=287, 921.4425pt x 271.0125pt>
+<./t5_train.png, id=291, 921.4425pt x 271.0125pt>
 File: ./t5_train.png Graphic file (type png)
 <use ./t5_train.png>
 Package pdftex.def Info: ./t5_train.png  used on input line 388.
 (pdftex.def)             Requested size: 398.33858pt x 117.15753pt.
-<./data_head.png, id=288, 1083.04625pt x 328.22626pt>
+<./data_head.png, id=292, 1083.04625pt x 328.22626pt>
 File: ./data_head.png Graphic file (type png)
 <use ./data_head.png>
 Package pdftex.def Info: ./data_head.png  used on input line 423.
@@ -1371,7 +1371,7 @@ Overfull \hbox (15.0pt too wide) in paragraph at lines 420--426
  []
 
 [10 <./t5_train.png>]
-<./input_ids.png, id=294, 1559.8275pt x 166.6225pt>
+<./input_ids.png, id=298, 1559.8275pt x 166.6225pt>
 File: ./input_ids.png Graphic file (type png)
 <use ./input_ids.png>
 Package pdftex.def Info: ./input_ids.png  used on input line 451.
@@ -1382,7 +1382,7 @@ Overfull \hbox (15.0pt too wide) in paragraph at lines 448--454
  []
 
 [11 <./data_head.png> <./input_ids.png>]
-<./back-propagation.jpg, id=305, 722.7pt x 406.51875pt>
+<./back-propagation.jpg, id=309, 722.7pt x 406.51875pt>
 File: ./back-propagation.jpg Graphic file (type jpg)
 <use ./back-propagation.jpg>
 Package pdftex.def Info: ./back-propagation.jpg  used on input line 485.
@@ -1392,32 +1392,53 @@ Overfull \hbox (15.0pt too wide) in paragraph at lines 482--488
 []$[]$ 
  []
 
-<./bar_plot.png, id=306, 868.24374pt x 414.54875pt>
-File: ./bar_plot.png Graphic file (type png)
-<use ./bar_plot.png>
-Package pdftex.def Info: ./bar_plot.png  used on input line 528.
-(pdftex.def)             Requested size: 284.52756pt x 135.85268pt.
+<./gradient_descent.png, id=310, 1027.84pt x 513.92pt>
+File: ./gradient_descent.png Graphic file (type png)
+<use ./gradient_descent.png>
+Package pdftex.def Info: ./gradient_descent.png  used on input line 514.
+(pdftex.def)             Requested size: 341.43306pt x 170.71548pt.
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 525--531
+Overfull \hbox (15.0pt too wide) in paragraph at lines 511--517
 []$[]$ 
  []
 
 [12 <./back-propagation.jpg>]
-<./plot.png, id=315, 868.24374pt x 414.54875pt>
-File: ./plot.png Graphic file (type png)
-<use ./plot.png>
-Package pdftex.def Info: ./plot.png  used on input line 535.
-(pdftex.def)             Requested size: 284.52756pt x 135.85268pt.
+<./bar_plot.png, id=319, 868.24374pt x 414.54875pt>
+File: ./bar_plot.png Graphic file (type png)
+<use ./bar_plot.png>
+Package pdftex.def Info: ./bar_plot.png  used on input line 558.
+(pdftex.def)             Requested size: 227.62204pt x 108.67834pt.
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 532--538
+Overfull \hbox (15.0pt too wide) in paragraph at lines 555--561
 []$[]$ 
  []
 
-[13 <./bar_plot.png> <./plot.png>]
-LaTeX Font Info:    Trying to load font information for T5+cmtt on input line 544.
+[13 <./gradient_descent.png>]
+<./plot.png, id=329, 868.24374pt x 414.54875pt>
+File: ./plot.png Graphic file (type png)
+<use ./plot.png>
+Package pdftex.def Info: ./plot.png  used on input line 565.
+(pdftex.def)             Requested size: 227.62204pt x 108.67834pt.
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 562--568
+[]$[]$ 
+ []
+
+<./demo.png, id=330, 1316.92pt x 729.72626pt>
+File: ./demo.png Graphic file (type png)
+<use ./demo.png>
+Package pdftex.def Info: ./demo.png  used on input line 587.
+(pdftex.def)             Requested size: 341.43306pt x 189.18988pt.
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 584--590
+[]$[]$ 
+ []
+
+[14 <./bar_plot.png> <./plot.png> <./demo.png>]
+LaTeX Font Info:    Trying to load font information for T5+cmtt on input line 592.
  (/usr/share/texlive/texmf-dist/tex/latex/vntex/t5cmtt.fd
 File: t5cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-) [14] (./main.aux)
+) [15] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: EE44A5B19277A77069ACE88BC068FF9A;6007.
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -1425,18 +1446,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42807 strings out of 478287
- 940774 string characters out of 5849288
+ 42830 strings out of 478287
+ 941156 string characters out of 5849288
  1666104 words of memory out of 5000000
- 60317 multiletter control sequences out of 15000+600000
- 495594 words of font info for 86 fonts, out of 8000000 for 9000
+ 60332 multiletter control sequences out of 15000+600000
+ 496521 words of font info for 89 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,7n,117p,849b,1334s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/fdsymbol/FdSymbolA-Book.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fdsymbol/FdSymbolB-Book.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fdsymbol/FdSymbolF-Book.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texlive/texmf-dist/fonts/type1/vntex/vnr/vnbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/vntex/vnr/vnbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/vntex/vnr/vnbxti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/vntex/vnr/vncsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/vntex/vnr/vnr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/vntex/vnr/vnr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/vntex/vnr/vnr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/vntex/vnr/vnti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/vntex/vnr/vnti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/vntex/vnr/vntt10.pfb>
-Output written on main.pdf (15 pages, 3049218 bytes).
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/fdsymbol/FdSymbolA-Book.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fdsymbol/FdSymbolB-Book.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fdsymbol/FdSymbolE-Book.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fdsymbol/FdSymbolF-Book.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texlive/texmf-dist/fonts/type1/vntex/vnr/vnbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/vntex/vnr/vnbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/vntex/vnr/vnbxti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/vntex/vnr/vncsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/vntex/vnr/vnr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/vntex/vnr/vnr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/vntex/vnr/vnr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/vntex/vnr/vnti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/vntex/vnr/vnti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/vntex/vnr/vntt10.pfb>
+Output written on main.pdf (16 pages, 3190817 bytes).
 PDF statistics:
- 423 PDF objects out of 1000 (max. 8388607)
- 340 compressed objects within 4 object streams
- 70 named destinations out of 1000 (max. 500000)
- 376 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 457 PDF objects out of 1000 (max. 8388607)
+ 361 compressed objects within 4 object streams
+ 73 named destinations out of 1000 (max. 500000)
+ 386 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -2,3 +2,5 @@ venv
 model
 tokenizer
 .idea
+frontend
+api

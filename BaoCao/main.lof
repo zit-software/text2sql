@@ -12,5 +12,7 @@
 \contentsline {figure}{\numberline {12}{\ignorespaces Một vài dòng dữ liệu fine-tune trên custom dataset.\relax }}{11}{figure.caption.14}%
 \contentsline {figure}{\numberline {13}{\ignorespaces Tokenize chuỗi đầu vào.\relax }}{11}{figure.caption.15}%
 \contentsline {figure}{\numberline {14}{\ignorespaces Sơ đồ thuật toán Backpropagation. Nguồn ảnh: \textbf {SideSalad.com}\relax }}{12}{figure.caption.16}%
-\contentsline {figure}{\numberline {15}{\ignorespaces Biểu đồ giá trị lỗi (cột) trên tập train và tập test.\relax }}{13}{figure.caption.17}%
-\contentsline {figure}{\numberline {16}{\ignorespaces Biểu đồ giá trị lỗi (đường) trên tập train và tập test.\relax }}{13}{figure.caption.18}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Minh hoạt thuật toán gradient descent. Nguồn ảnh: \textbf {MLmuse}\relax }}{13}{figure.caption.17}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Biểu đồ giá trị lỗi (cột) trên tập train và tập test.\relax }}{14}{figure.caption.18}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Biểu đồ giá trị lỗi (đường) trên tập train và tập test.\relax }}{14}{figure.caption.19}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Demo mô hình trên web.\relax }}{14}{figure.caption.20}%
