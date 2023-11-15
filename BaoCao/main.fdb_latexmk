@@ -1,13 +1,12 @@
 # Fdb version 3
-["biber main"] 1699946327 "main.bcf" "main.bbl" "main" 1700027786
-  "main.bcf" 1700027786 107239 609a818b7f5b121fe5f0ec61668d3828 "pdflatex"
-  "main.bib" 1699685046 458 d3ec6eccccee1db72259674d74c9fe55 ""
+["biber main"] 0 "main.bcf" "main.bbl" "main" 0
+  "main.bcf" 0 -1 0 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1700027784 "/home/tranhuy/Desktop/Project/text2sql/BaoCao/main.tex" "main.pdf" "main" 1700027786
+["pdflatex"] 1700029882 "/home/tranhuy/Desktop/Project/text2sql/BaoCao/main.tex" "main.pdf" "main" 1700029882
   "/etc/texmf/web2c/texmf.cnf" 1699078741 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/tranhuy/Desktop/Project/text2sql/BaoCao/main.tex" 1700027784 29650 c3603c5e9d0500281924f17c4def1d21 ""
+  "/home/tranhuy/Desktop/Project/text2sql/BaoCao/main.tex" 1700029879 30053 125aa9f0230050674a48ae7247df854b ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
@@ -271,13 +270,11 @@
   "input_ids.png" 1699721217 13117 d92d04bf101de3047a5f9ae277eac981 ""
   "llm.jpg" 1699678237 36758 d8055390617f6d36a1b3a9396de78ef5 ""
   "logo-ctu.png" 1698472821 517722 0312c542d50339fbf928f5e976a26779 ""
-  "main.aux" 1700027786 9366 6847e30c86020f467519e56ed5a89425 "pdflatex"
+  "main.aux" 1700029882 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
   "main.bbl" 1699946328 2673 3e44952ca0005d80e0c695e610497a15 "biber main"
-  "main.lof" 1700027786 2925 b72f84ca5d899c235edd995f96f084c8 "pdflatex"
-  "main.out" 1700027786 6002 aff610a1f6bf8536698cfa7bde73b1f9 "pdflatex"
-  "main.run.xml" 1700027786 2299 81988d3303a58f7ac525483192dfa2a1 "pdflatex"
-  "main.tex" 1700027784 29650 c3603c5e9d0500281924f17c4def1d21 ""
-  "main.toc" 1700027786 3119 c05ecebb7ed19cb4ca4e68695eb9a698 "pdflatex"
+  "main.out" 0 -1 0 "pdflatex"
+  "main.run.xml" 0 -1 0 "pdflatex"
+  "main.tex" 1700029879 30053 125aa9f0230050674a48ae7247df854b ""
   "plot.png" 1699901648 25396 7923b430f2c0473a98a7b1547c40f5fa ""
   "t5.jpg" 1699696630 1654310 1a1a2017234ab82a11dcd7e4d41a61d5 ""
   "t5_train.png" 1699698207 50564 6f6fd63472e7efda2cbb474b8f6d1a86 ""

@@ -572,6 +572,14 @@ giữ cho mô hình không học được thông tin từ các token padding.
 
 \subsection{Đánh giá mô hình}
 
+Đánh giá mô hình bằng chỉ số BLEU (Bilingual Evaluation Understudy):
+\begin{itemize}
+    \item BLEU được sử dụng để đánh giá mức độ "đúng" của chuỗi prediction so với chuỗi answer
+    \item So sánh các từ và cụm từ xuất hiện, tính điểm dựa trên tỷ lệ từ và cụm từ trùng khớp.
+    \item Phù hợp với bài toán hiện tại
+\end{itemize}
+Chỉ số BLEU trung bình là 0.72
+
 \section{Triển khai mô hình}
 Mô hình được demo trên nền tảng web, hỗ trợ sinh câu lệnh từ một chuỗi context và một chuỗi input
 
