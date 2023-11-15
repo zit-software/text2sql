@@ -27,7 +27,7 @@
 \contentsline {subsection}{\numberline {5.1}Tiền xử lý dữ liệu}{10}{subsection.5.1}%
 \contentsline {subsection}{\numberline {5.2}Fine-tune mô hình}{11}{subsection.5.2}%
 \contentsline {subsubsection}{\numberline {5.2.1}Thuật toán Lan Truyền Ngược (Backpropagation)}{11}{subsubsection.5.2.1}%
-\contentsline {subsubsection}{\numberline {5.2.2}Gradient Descent - AdamW}{12}{subsubsection.5.2.2}%
+\contentsline {subsubsection}{\numberline {5.2.2}Gradient Descent - Adam}{12}{subsubsection.5.2.2}%
 \contentsline {subsubsection}{\numberline {5.2.3}Hàm lỗi CrossEntropyLoss}{13}{subsubsection.5.2.3}%
 \contentsline {subsubsection}{\numberline {5.2.4}Fine-tune}{13}{subsubsection.5.2.4}%
 \contentsline {subsection}{\numberline {5.3}Đánh giá mô hình}{14}{subsection.5.3}%
